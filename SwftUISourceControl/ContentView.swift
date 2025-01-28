@@ -14,10 +14,6 @@ struct ContentView: View {
                 .font(.largeTitle)
                 .foregroundStyle(.tint)
             Text("SwiftUI Source Control")
-            
-            Button("Click me") {
-                
-            }
         }
         .padding()
     }
