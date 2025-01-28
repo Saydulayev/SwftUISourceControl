@@ -13,12 +13,13 @@ struct ContentView: View {
             Image(systemName: "heart.fill")
                 .font(.largeTitle)
                 .foregroundStyle(.tint)
-            Text("SwiftUI Source Control")
+            Text("SwiftUI Source C.")
             
             Button("Click me") {
             
             }
             .background(.red)
+            .background(.green)
         }
         .padding()
     }
