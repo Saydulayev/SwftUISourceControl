@@ -35,6 +35,10 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
             Text("SwiftUI Source C.")
             
+            Button("Subscribe") {
+                
+            }
+            
             Button("Click me") {
             
             }
