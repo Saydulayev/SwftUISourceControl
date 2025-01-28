@@ -39,7 +39,7 @@ struct ContentView: View {
             Image(systemName: "heart.fill")
                 .font(.largeTitle)
                 .foregroundStyle(.tint)
-            Text("SwiftUI!")
+            Text("SwiftUI Source Control")
             
             Button("Subscribe now!") {
                 
