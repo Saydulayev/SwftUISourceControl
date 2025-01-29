@@ -44,7 +44,7 @@ struct ContentView: View {
                             .foregroundStyle(.tint)
                         Text("Some new title")
                         
-                        Button("Click me!") {
+                        Button("Swiftui Source Control") {
                             
                         }
                     }
