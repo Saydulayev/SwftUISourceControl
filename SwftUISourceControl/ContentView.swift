@@ -42,7 +42,7 @@ struct ContentView: View {
                         Image(systemName: "magnifyingglass")
                             .font(.largeTitle)
                             .foregroundStyle(.tint)
-                        Text("Some new title")
+                        Text("Some new title!!!")
                         
                         Button("Swiftui Source Control") {
                             
