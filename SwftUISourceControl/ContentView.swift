@@ -36,23 +36,18 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-                    Image(systemName: "globe")
-                        .font(.largeTitle)
-                        .foregroundStyle(.tint)
-                    Text("Some new title")
-            
-                    Button("Click me!") {
-                    }
-                }  
             ScrollView {
-                ForEach(0..<20) { _ in
-                    Image(systemName: "globe")
-                        .font(.largeTitle)
-                        .foregroundStyle(.tint)
-                    Text("Some new title")
-            
-                    Button("Click me!") {
-              
+                VStack {
+                    ForEach(0..<5) { _ in
+                        Image(systemName: "magnifyingglass")
+                            .font(.largeTitle)
+                            .foregroundStyle(.tint)
+                        Text("Some new title")
+                        
+                        Button("Click me!") {
+                            
+                        }
+                    }
                 }
             }
         }
