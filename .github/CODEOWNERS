@@ -2,7 +2,7 @@
 # Lines starting with '#' are comments.
 # Each line is a file pattern followed by one or more owners.
 
-# The following example assumes 'codeguardian' should be the code owner for specific directories and file types.
+# The following example assumes 'Saydulayev' should be the code owner for specific directories and file types.
 
-# To make 'codeguardian' the default owner for everything in the repo
-*       @CodeGuardian
+# To make 'swiftfulthinking' the default owner for everything in the repo
+*       @Saydulayev
