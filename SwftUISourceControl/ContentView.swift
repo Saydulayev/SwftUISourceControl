@@ -6,12 +6,16 @@
 //
 
 /*
- Clone = Copying the repo locally
- Commit = Save ("checkpoint") on our current branch
- Stage = Prepare changes for a commit
- Stash = Save changes for later
- Push = Send local commits to remote repo
- Pull = Fetch remote commits to local repo
+ Clone = Копирование репозитория локально
+ Commit = Сохранить ("контрольная точка") изменения в текущей ветке
+ Stage = Подготовить изменения для фиксации
+ Stash = Сохранить изменения для последующего использования
+ Push = Отправить локальные фиксации в удалённый репозиторий
+ Pull = Забрать фиксации из удалённого репозитория в локальный
+ Merge = Объединение двух разных веток
+ Rebase = Перемещение одной ветки поверх другой
+ Cherry picking = Дублирование (копирование) одной фиксации из одной ветки в другую
+
  
  COMMIT MESSAGES
  
