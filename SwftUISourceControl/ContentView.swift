@@ -49,9 +49,9 @@ struct ContentView: View {
                         Image(systemName: "globe")
                             .font(.largeTitle)
                             .foregroundStyle(.tint)
-                        Text("SwiftUI Source Control!!!")
+                        Text("SwiftUI!")
                         
-                        Button("Subscribe now for more updates") {
+                        Button("Subscribe") {
                             
                         }
                     }
