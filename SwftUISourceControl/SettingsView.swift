@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SettingsView: View {
-    @State var showSettings: Bool = false
+    @State var showSettings: Bool = true
     
     var body: some View {
         Text("SettingsView!")
