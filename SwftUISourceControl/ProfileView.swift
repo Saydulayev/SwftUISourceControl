@@ -12,6 +12,16 @@ struct ProfileView: View {
     
     var body: some View {
         Text("Hello, SwiftUI!")
+        
+        if !isPremium {
+            Text("You are not premium user")
+                .foregroundColor(.red)
+        }
+        
+        Toggle(isOn: $isPremium) {
+            Text("Premium")
+        }
+        .padding()
     }
 }
 
