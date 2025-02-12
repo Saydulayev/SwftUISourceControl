@@ -12,12 +12,6 @@ struct ProfileView: View {
     
     var body: some View {
         Text("Hello, SwiftUI!")
-        
-        Button(action: {
-            isPremium.toggle()
-        }) {
-            Text("Premium: \(self.isPremium ? "Yes" : "No")")
-        }
     }
 }
 
